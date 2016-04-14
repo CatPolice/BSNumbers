@@ -90,6 +90,7 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
             [self updateFrame];
         }];
     }
+    
 }
 
 #pragma mark - Private
@@ -133,8 +134,15 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
 }
 
 - (void)updateFrame {
-
+    CGFloat width = self.bounds.size.width;
     CGFloat height = self.bounds.size.height;
+    
+    UIDeviceOrientation orientation = [UIDevice currentDevice].orientation;
+    if (orientation == UIDeviceOrientationLandscapeLeft ||
+        orientation == UIDeviceOrientationLandscapeRight){
+        width = MAX(self.bounds.size.width, self.bounds.size.height);
+        height = MIN(self.bounds.size.width, self.bounds.size.height);
+    }
     
     if (self.headerData) {
         CGFloat headerHeight = self.itemHeight + 1;
@@ -150,7 +158,7 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
         
         self.slidingScrollView.frame = CGRectMake(self.dataManager.freezeCollectionViewWidth,
                                                   0,
-                                                  self.bounds.size.width - self.dataManager.freezeCollectionViewWidth,
+                                                  width - self.dataManager.freezeCollectionViewWidth,
                                                   height);
         self.slidingScrollView.contentSize = CGSizeMake(self.dataManager.slidingCollectionViewWidth,
                                                         height);
@@ -172,7 +180,7 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
                                                      height);
         self.slidingScrollView.frame = CGRectMake(self.dataManager.freezeCollectionViewWidth,
                                                   0,
-                                                  self.bounds.size.width - self.dataManager.freezeCollectionViewWidth - self.frame.origin.x,
+                                                  width - self.dataManager.freezeCollectionViewWidth,
                                                   height);
         self.slidingScrollView.contentSize = CGSizeMake(self.dataManager.slidingCollectionViewWidth,
                                                         height);
