@@ -15,7 +15,7 @@
 
 - (void)setupFlatData;
 
-- (void)caculateValues;
+- (void)configureFlatData;
 - (void)caculateWidths;
 
 @end
@@ -40,7 +40,7 @@
     self.flatData = flatData.copy;
 }
 
-- (void)caculateValues {
+- (void)configureFlatData {
     NSMutableArray *freezeCollectionViewFlatData = @[].mutableCopy;
     NSMutableArray *slidingCollectionViewFlatData = @[].mutableCopy;
     
@@ -85,15 +85,21 @@
 
     NSInteger columnsCount = self.flatData.firstObject.count;
     
+    //遍历列
     for (NSInteger i = 0; i < columnsCount; i ++) {
         
         CGFloat columnMaxWidth = 0;
         
+        //遍历行
         for (NSInteger j = 0; j < self.flatData.count; j ++) {
             
             NSString *columnValue = self.flatData[j][i];
             
             CGSize size = [columnValue sizeWithFont:self.bodyFont constraint:CGSizeMake(self.maxItemWidth, self.itemHeight)];
+            if (j == 0) {
+                size = [columnValue sizeWithFont:self.headerFont constraint:CGSizeMake(self.maxItemWidth, self.itemHeight)];
+            }
+            
             CGFloat targetWidth = size.width + 2 * self.itemHorizontalMargin;
             
             if (targetWidth >= columnMaxWidth) {
@@ -119,7 +125,7 @@
 #pragma mark - Public
 
 - (void)caculate {
-    [self caculateValues];
+    [self configureFlatData];
     [self caculateWidths];
 }
 

@@ -4,6 +4,6 @@
 # use_frameworks!
 
 target 'BSNumbersSample' do
-
+pod 'AFNetworking', '~> 3.0.4'
 end
 

@@ -4,343 +4,663 @@
 <array>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016年四月七日 星期四</string>
-		<key>typeOfAircraft</key>
-		<string>321(中)</string>
-		<key>number</key>
-		<string>KA825</string>
-		<key>company</key>
-		<string>港龙航空</string>
-	</dict>
-	<dict>
-		<key>price</key>
-		<string>¥930</string>
-		<key>arriveTime</key>
-		<string>11:00</string>
-		<key>departureTime</key>
-		<string>08:10</string>
-		<key>placeOfDestination</key>
-		<string>香港</string>
-		<key>placeOfDeparture</key>
-		<string>成都</string>
-		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
 		<string>320(中)</string>
 		<key>number</key>
-		<string>3U8617</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>四川航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>¥930</string>
+		<string>¥1098</string>
 		<key>arriveTime</key>
-		<string>11:00</string>
+		<string>10:30</string>
 		<key>departureTime</key>
-		<string>08:10</string>
+		<string>07:30</string>
 		<key>placeOfDestination</key>
-		<string>香港</string>
+		<string>香港机场 HKG</string>
 		<key>placeOfDeparture</key>
-		<string>成都</string>
+		<string>双流机场 CTU T1</string>
 		<key>date</key>
-		<string>2016-4-7 星期四</string>
+		<string>2016-4-16</string>
 		<key>typeOfAircraft</key>
-		<string>321(中)</string>
+		<string>320(中)</string>
 		<key>number</key>
-		<string>KA825</string>
+		<string>HX453</string>
 		<key>company</key>
-		<string>港龙航空</string>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
+	</dict>
+	<dict>
+		<key>price</key>
+		<string>¥1098</string>
+		<key>arriveTime</key>
+		<string>10:30</string>
+		<key>departureTime</key>
+		<string>07:30</string>
+		<key>placeOfDestination</key>
+		<string>香港机场 HKG</string>
+		<key>placeOfDeparture</key>
+		<string>双流机场 CTU T1</string>
+		<key>date</key>
+		<string>2016-4-16</string>
+		<key>typeOfAircraft</key>
+		<string>320(中)</string>
+		<key>number</key>
+		<string>HX453</string>
+		<key>company</key>
+		<string>香港航空</string>
 	</dict>
 </array>
 </plist>

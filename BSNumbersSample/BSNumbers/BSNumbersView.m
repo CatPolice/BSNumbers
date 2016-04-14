@@ -33,6 +33,10 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
 
 - (void)setup;
 - (void)setupVars;
+- (void)setupViews;
+
+- (void)handleNotification:(NSNotification *)noti;
+
 - (void)updateFrame;
 
 - (void)showHorizontalDivideShadowLayer;
@@ -72,11 +76,49 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
     return self;
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    [self updateFrame];
+}
+
+#pragma mark - Notification
+
+- (void)handleNotification:(NSNotification *)noti {
+    UIDeviceOrientation orientation = [UIDevice currentDevice].orientation;
+    
+    if (orientation != UIDeviceOrientationPortraitUpsideDown) {
+        [UIView animateWithDuration:0.3 animations:^{
+            [self updateFrame];
+        }];
+    }
+}
+
 #pragma mark - Private
 
 - (void)setup {
     [self setupVars];
-    
+    [self setupViews];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleNotification:) name:UIDeviceOrientationDidChangeNotification object:nil];
+}
+
+- (void)setupVars {
+    self.minItemWidth = 100;
+    self.maxItemWidth = 150;
+    self.itemHeight = 50;
+    self.itemHorizontalMargin = 10;
+    self.freezeColumn = 1;
+    self.headerFont = [UIFont systemFontOfSize:17];
+    self.headerTextColor = [UIColor whiteColor];
+    self.headerBackgroundColor = [UIColor grayColor];
+    self.bodyFont = self.headerFont;
+    self.bodyTextColor = [UIColor blackColor];
+    self.bodyBackgroundColor = [UIColor whiteColor];
+    self.freezeBodyFont = self.headerFont;
+    self.freezeBodyTextColor = [UIColor whiteColor];
+    self.freezeBodyBackgroundColor = [UIColor lightGrayColor];
+}
+
+- (void)setupViews {
     self.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.layer.borderWidth = 0.5;
     
@@ -91,26 +133,8 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
     [self.slidingScrollView.layer addSublayer:self.verticalDivideShadowLayer];
 }
 
-- (void)setupVars {
-    self.minItemWidth = 100;
-    self.maxItemWidth = 150;
-    self.itemHeight = 50;
-    self.itemHorizontalMargin = 20;
-    self.freezeColumn = 1;
-    self.headerFont = [UIFont systemFontOfSize:17];
-    self.headerTextColor = [UIColor whiteColor];
-    self.headerBackgroundColor = [UIColor grayColor];
-    self.bodyFont = [UIFont systemFontOfSize:17];
-    self.bodyTextColor = [UIColor blackColor];
-    self.bodyBackgroundColor = [UIColor whiteColor];
-    self.freezeBodyFont = [UIFont systemFontOfSize:17];
-    self.freezeBodyTextColor = [UIColor whiteColor];
-    self.freezeBodyBackgroundColor = [UIColor lightGrayColor];
-}
-
 - (void)updateFrame {
-    [self layoutIfNeeded];
-    
+
     CGFloat height = self.bounds.size.height;
     
     if (self.headerData) {
@@ -339,7 +363,7 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
     c.backgroundColor = [UIColor clearColor];
     c.showsVerticalScrollIndicator = NO;
     c.bounces = NO;
-    
+    c.translatesAutoresizingMaskIntoConstraints = NO;
     return c;
 }
 
@@ -380,23 +404,36 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
     cell.horizontalMargin = self.itemHorizontalMargin;
     
     if (collectionView == self.headerFreezeCollectionView) {
-        NSString *value = self.dataManager.headerFreezeCollectionViewFlatData[indexPath.row];
+        
         cell.label.textColor = self.headerTextColor;
         cell.backgroundColor = self.headerBackgroundColor;
+        cell.label.font = self.headerFont;
+        
+        NSString *value = self.dataManager.headerFreezeCollectionViewFlatData[indexPath.row];
         cell.label.text = value;
     } else if (collectionView == self.headerSlidingCollectionView) {
-        NSString *value = self.dataManager.headerSlidingCollectionViewFlatData[indexPath.row];
+        
+        
         cell.label.textColor = self.headerTextColor;
         cell.backgroundColor = self.headerBackgroundColor;
+        cell.label.font = self.headerFont;
+        
+        NSString *value = self.dataManager.headerSlidingCollectionViewFlatData[indexPath.row];
         cell.label.text = value;
     } else if (collectionView == self.freezeCollectionView) {
+        
         cell.label.textColor = self.freezeBodyTextColor;
         cell.backgroundColor = self.freezeBodyBackgroundColor;
+        cell.label.font = self.freezeBodyFont;
+        
         NSString *value = self.dataManager.freezeCollectionViewFlatData[indexPath.section][indexPath.row];
         cell.label.text = value;
     } else {
+        
         cell.label.textColor = self.bodyTextColor;
         cell.backgroundColor = self.bodyBackgroundColor;
+        cell.label.font = self.bodyFont;
+        
         NSString *value = self.dataManager.slidingCollectionViewFlatData[indexPath.section][indexPath.row];
         cell.label.text = value;
     }
