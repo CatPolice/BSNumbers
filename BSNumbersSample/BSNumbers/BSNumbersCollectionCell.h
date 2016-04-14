@@ -11,6 +11,6 @@
 @interface BSNumbersCollectionCell : UICollectionViewCell
 
 @property (assign, nonatomic) CGFloat horizontalMargin;
-@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (strong, nonatomic) UILabel *label;
 
 @end

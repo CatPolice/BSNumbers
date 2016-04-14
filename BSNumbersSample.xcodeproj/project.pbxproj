@@ -18,7 +18,6 @@
 		84032C991CB4F36F00F080D2 /* BSNumbersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84032C981CB4F36F00F080D2 /* BSNumbersView.m */; };
 		84032CA41CB4F7F800F080D2 /* NSObject+BSNumbersExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84032CA31CB4F7F800F080D2 /* NSObject+BSNumbersExtension.m */; };
 		84032CA81CB4FAA500F080D2 /* BSNumbersCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84032CA61CB4FAA500F080D2 /* BSNumbersCollectionCell.m */; };
-		84032CA91CB4FAA500F080D2 /* BSNumbersCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84032CA71CB4FAA500F080D2 /* BSNumbersCollectionCell.xib */; };
 		84032CAC1CB4FD9E00F080D2 /* BSNumbersDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84032CAB1CB4FD9E00F080D2 /* BSNumbersDataManager.m */; };
 		84032CAF1CB5076700F080D2 /* NSString+BSNumbersExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84032CAE1CB5076700F080D2 /* NSString+BSNumbersExtension.m */; };
 		84032CB91CB657EB00F080D2 /* BSNumbersCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84032CB81CB657EB00F080D2 /* BSNumbersCollectionFooterView.m */; };
@@ -46,7 +45,6 @@
 		84032CA31CB4F7F800F080D2 /* NSObject+BSNumbersExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BSNumbersExtension.m"; sourceTree = "<group>"; };
 		84032CA51CB4FAA500F080D2 /* BSNumbersCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNumbersCollectionCell.h; sourceTree = "<group>"; };
 		84032CA61CB4FAA500F080D2 /* BSNumbersCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNumbersCollectionCell.m; sourceTree = "<group>"; };
-		84032CA71CB4FAA500F080D2 /* BSNumbersCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSNumbersCollectionCell.xib; sourceTree = "<group>"; };
 		84032CAA1CB4FD9E00F080D2 /* BSNumbersDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNumbersDataManager.h; sourceTree = "<group>"; };
 		84032CAB1CB4FD9E00F080D2 /* BSNumbersDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNumbersDataManager.m; sourceTree = "<group>"; };
 		84032CAD1CB5076700F080D2 /* NSString+BSNumbersExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BSNumbersExtension.h"; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 				84032CAB1CB4FD9E00F080D2 /* BSNumbersDataManager.m */,
 				84032CA51CB4FAA500F080D2 /* BSNumbersCollectionCell.h */,
 				84032CA61CB4FAA500F080D2 /* BSNumbersCollectionCell.m */,
-				84032CA71CB4FAA500F080D2 /* BSNumbersCollectionCell.xib */,
 				84032CB71CB657EB00F080D2 /* BSNumbersCollectionFooterView.h */,
 				84032CB81CB657EB00F080D2 /* BSNumbersCollectionFooterView.m */,
 				84032CA21CB4F7F800F080D2 /* NSObject+BSNumbersExtension.h */,
@@ -220,7 +217,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84032CA91CB4FAA500F080D2 /* BSNumbersCollectionCell.xib in Resources */,
 				84032C921CB4F15F00F080D2 /* flightsInfo.plist in Resources */,
 				84032C891CB4F13100F080D2 /* LaunchScreen.storyboard in Resources */,
 				84032C861CB4F13100F080D2 /* Assets.xcassets in Resources */,

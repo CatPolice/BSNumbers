@@ -12,7 +12,6 @@
 #import "NSObject+BSNumbersExtension.h"
 #import "BSNumbersDataManager.h"
 
-NSString * const CellNibName = @"BSNumbersCollectionCell";
 NSString * const CellReuseIdentifer = @"BSNumbersCollectionCell";
 NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
 
@@ -358,7 +357,7 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
     UICollectionView *c = [[UICollectionView alloc]initWithFrame:CGRectZero collectionViewLayout:flowLayout];
     c.dataSource = self;
     c.delegate = self;
-    [c registerNib:[UINib nibWithNibName:CellNibName bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:CellReuseIdentifer];
+    [c registerClass:[BSNumbersCollectionCell class] forCellWithReuseIdentifier:CellReuseIdentifer];
     [c registerClass:[BSNumbersCollectionFooterView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:FooterReuseIdentifer];
     c.backgroundColor = [UIColor clearColor];
     c.showsVerticalScrollIndicator = NO;

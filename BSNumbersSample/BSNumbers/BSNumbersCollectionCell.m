@@ -10,42 +10,79 @@
 
 @interface BSNumbersCollectionCell ()
 
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *labelLeadingSpace;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *labelTrailingSpace;
+@property (strong ,nonatomic) CAShapeLayer *verticalDivideLineLayer;
+
+- (void)setup;
+- (void)updateFrame;
 
 @end
 
 @implementation BSNumbersCollectionCell
 
+#pragma mark - Override
 - (void)awakeFromNib {
     // Initialization code
+    [self setup];
 }
 
-- (void)drawRect:(CGRect)rect {
-    
-    [self layoutIfNeeded];
-    
-    [[UIColor lightGrayColor] set];
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self setup];
+    }
+    return self;
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    [self updateFrame];
+}
+
+#pragma mark - Private
+- (void)setup {
+    [self addSubview:self.label];
+    [self.layer addSublayer:self.verticalDivideLineLayer];
+}
+
+- (void)updateFrame {
+    self.label.frame = CGRectMake(self.horizontalMargin,
+                                  0,
+                                  self.bounds.size.width - 2 * self.horizontalMargin,
+                                  self.bounds.size.height);
     
     UIBezierPath *path = [UIBezierPath bezierPath];
-    [path moveToPoint:CGPointMake(self.bounds.size.width, 0)];
-    [path addLineToPoint:CGPointMake(self.bounds.size.width, self.bounds.size.height)];
+    [path moveToPoint:CGPointMake(self.bounds.size.width - 1, 0)];
+    [path addLineToPoint:CGPointMake(self.bounds.size.width - 1, self.bounds.size.height)];
     path.lineWidth = 1;
-    
-    [path stroke];
+    self.verticalDivideLineLayer.path = path.CGPath;
 }
 
-- (void)prepareForReuse {
-    [self setNeedsDisplay];
-}
-
+#pragma mark - Setter
 - (void)setHorizontalMargin:(CGFloat)horizontalMargin {
     _horizontalMargin = horizontalMargin;
     
-    self.labelLeadingSpace.constant = horizontalMargin;
-    self.labelTrailingSpace.constant = horizontalMargin;
-    
-    [self updateConstraints];
+    [self updateFrame];
+}
+
+#pragma mark - Getter
+- (UILabel *)label {
+    if (!_label) {
+        _label = [UILabel new];
+        _label.textAlignment = NSTextAlignmentCenter;
+        _label.numberOfLines = 0;
+        _label.backgroundColor = [UIColor clearColor];
+    }
+    return _label;
+}
+
+- (CAShapeLayer *)verticalDivideLineLayer {
+    if (!_verticalDivideLineLayer) {
+        _verticalDivideLineLayer = [CAShapeLayer layer];
+        _verticalDivideLineLayer.strokeColor = [UIColor lightGrayColor].CGColor;
+        _verticalDivideLineLayer.opacity = 0.5;
+    }
+    return _verticalDivideLineLayer;
 }
 
 @end
