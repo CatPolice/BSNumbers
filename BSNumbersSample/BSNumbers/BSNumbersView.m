@@ -137,12 +137,6 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
     CGFloat width = self.bounds.size.width;
     CGFloat height = self.bounds.size.height;
     
-    UIDeviceOrientation orientation = [UIDevice currentDevice].orientation;
-    if (orientation == UIDeviceOrientationLandscapeLeft ||
-        orientation == UIDeviceOrientationLandscapeRight){
-        width = MAX(self.bounds.size.width, self.bounds.size.height);
-        height = MIN(self.bounds.size.width, self.bounds.size.height);
-    }
     
     if (self.headerData) {
         CGFloat headerHeight = self.itemHeight + 1;
