@@ -2,9 +2,9 @@
 
 ## Overview
 
-if the view did not add constraints or initialize though xib/storyboard , you need to rotate the view manually when screen's orientation changed.
+if the view did not add constraints, you need to rotate the view manually when screen's orientation changed.
 
-![](https://github.com/blurryssky/BSNumbers/blob/master/Screenshots/BSNumbersGIF.gif)
+![BSNumbersGIF.gif](https://github.com/blurryssky/BSNumbers/blob/master/Screenshots/BSNumbersGIF.gif)
 
 ## Installation
 
@@ -14,41 +14,44 @@ if the view did not add constraints or initialize though xib/storyboard , you ne
 
 ### Supple an array with models as datasource
 
-    NSArray<NSDictionary *> *flightsInfo = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"flightsInfo" ofType:@"plist"]];
-    NSMutableArray<Flight *> *flights = @[].mutableCopy;
-    for (NSDictionary *flightInfo in flightsInfo) {
-        Flight *flight = [[Flight alloc]initWithDictionary:flightInfo];
-        [flights addObject:flight];
-    }
+```objective-c
+NSArray<NSDictionary *> *flightsInfo = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"flightsInfo" ofType:@"plist"]];
+NSMutableArray<Flight *> *flights = @[].mutableCopy;
+for (NSDictionary *flightInfo in flightsInfo) {
+    Flight *flight = [[Flight alloc]initWithDictionary:flightInfo];
+    [flights addObject:flight];
+}
+```
     
 ### This is the model: Flight
+```objective-c
+@interface Flight : NSObject
 
-    @interface Flight : NSObject
+@property (strong, nonatomic) NSString *company;
+@property (strong, nonatomic) NSString *number;
+@property (strong, nonatomic) NSString *typeOfAircraft;
+@property (strong, nonatomic) NSString *date;
+@property (strong, nonatomic) NSString *placeOfDeparture;
+@property (strong, nonatomic) NSString *placeOfDestination;
+@property (strong, nonatomic) NSString *departureTime;
+@property (strong, nonatomic) NSString *arriveTime;
+@property (strong, nonatomic) NSString *price;
 
-    @property (strong, nonatomic) NSString *company;
-    @property (strong, nonatomic) NSString *number;
-    @property (strong, nonatomic) NSString *typeOfAircraft;
-    @property (strong, nonatomic) NSString *date;
-    @property (strong, nonatomic) NSString *placeOfDeparture;
-    @property (strong, nonatomic) NSString *placeOfDestination;
-    @property (strong, nonatomic) NSString *departureTime;
-    @property (strong, nonatomic) NSString *arriveTime;
-    @property (strong, nonatomic) NSString *price;
+- (instancetype)initWithDictionary:(NSDictionary *)dic;
 
-    - (instancetype)initWithDictionary:(NSDictionary *)dic;
-
-    @end
-
+@end
+```
 ###Set the datasource and the other optional attribute
-
-    self.numbersView.bodyData = flights;
-    
+```objective-c
+self.numbersView.bodyData = flights;
+```
 ######optional attribute
-
-    self.numbersView.headerData = @[@"Flight Company", @"Flight Number", @"Type Of Aircraft", @"Date", @"Place Of Departure", @"Place Of Destination", @"Departure Time", @"Arrive Time", @"Price"];
-    self.numbersView.freezeColumn = 1;
-    self.numbersView.bodyFont = [UIFont systemFontOfSize:14];
-    
+```objective-c
+self.numbersView.headerData = @[@"Flight Company", @"Flight Number", @"Type Of Aircraft", @"Date", @"Place Of Departure", @"Place Of Destination", @"Departure Time", @"Arrive Time", @"Price"];
+self.numbersView.freezeColumn = 1;
+self.numbersView.bodyFont = [UIFont systemFontOfSize:14];
+```
 ###Display
-
-    [self.numbersView reloadData];
+```objective-c
+[self.numbersView reloadData];
+```
