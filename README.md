@@ -1,5 +1,11 @@
 # BSNumbers
 
+## Overview
+
+if the view did not add constraints or initialize though xib/storyboard , you need to rotate the view manually when screen's orientation changed.
+
+![](https://github.com/blurryssky/BSNumbers/blob/master/Screenshots/BSNumbersGIF.gif)
+
 ## Installation
 
 > pod 'BSNumbers', '~> 0.0.4'
