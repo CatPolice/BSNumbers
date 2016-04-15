@@ -430,7 +430,6 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
         NSString *value = self.dataManager.freezeCollectionViewFlatData[indexPath.section][indexPath.row];
         cell.label.text = value;
     } else {
-        
         cell.label.textColor = self.bodyTextColor;
         cell.backgroundColor = self.bodyBackgroundColor;
         cell.label.font = self.bodyFont;
@@ -438,6 +437,8 @@ NSString * const FooterReuseIdentifer = @"BSNumbersCollectionFooterView";
         NSString *value = self.dataManager.slidingCollectionViewFlatData[indexPath.section][indexPath.row];
         cell.label.text = value;
     }
+    
+    
     
     return cell;
 }

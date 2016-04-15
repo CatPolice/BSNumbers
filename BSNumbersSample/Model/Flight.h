@@ -20,9 +20,6 @@
 @property (strong, nonatomic) NSString *arriveTime;
 @property (strong, nonatomic) NSString *price;
 
-
 - (instancetype)initWithDictionary:(NSDictionary *)dic;
-
-
 
 @end

@@ -33,20 +33,15 @@
         [flights addObject:flight];
     }
     
-    self.numbersView.headerData = @[@"Flight Company", @"Flight Number", @"Type Of Aircraft", @"Date", @"Place Of Departure", @"Place Of Destination", @"Departure Time", @"Arrive Time", @"Price"];
+    
     self.numbersView.bodyData = flights;
     
-    //optional
-    self.numbersView.headerFont = [UIFont systemFontOfSize:15];
+    self.numbersView.headerData = @[@"Flight Company", @"Flight Number", @"Type Of Aircraft", @"Date", @"Place Of Departure", @"Place Of Destination", @"Departure Time", @"Arrive Time", @"Price"];
+    self.numbersView.freezeColumn = 1;
     self.numbersView.bodyFont = [UIFont systemFontOfSize:14];
-    self.numbersView.freezeBodyFont = [UIFont systemFontOfSize:14];
     
     [self.numbersView reloadData];
 }
 
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    
-}
 
 @end
